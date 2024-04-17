@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#cabecalho{
+    height:100%;
+    background-color: rgb(231, 51, 51);
+    width:  100%;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+
+#rodape{
+    height: 50px;
+    /*width: 300px;*/
+    background-color:  rgb(255, 0, 0);
+    clear: both;
+    width: 1536px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#direito{
+    height: 558px;
+    width: 300px;
+    background-color: rgb(231, 51, 51);
+    float: left;
+    margin-left: 0px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+#centro{
+    height: 558px;
+    width: 1536px;
+    background-color:  rgb(231, 51, 51);
+    margin-right: 0;
+}
+
+
+img{
+    width: 30%;
+    border-radius: 20px;
+    width: 1236px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 4px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.button1 {
+    background-color: white; 
+    color:  rgb(255, 178, 46); 
+    border: 2px solid #000000;
+}
+
+.button1:hover {
+    background-color: rgb(255, 60, 6);
+    color: white;
+}
+
+.button2 {
+    background-color: white; 
+    color: rgb(25, 110, 185); 
+    border: 2px solid #000000;
+}
+
+.button2:hover {
+    background-color: rgb(25, 110, 185);
+    color: white;
+}
+
+.button3 {
+    background-color: white; 
+    color: rgb(87, 109, 127); 
+    border: 2px solid #000000;
+}
+
+.button3:hover {
+    background-color: rgb(87, 109, 127);
+    color: white;
+}
