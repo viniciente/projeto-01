@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#cabecalho{
+    height:100%;
+    background-color: rgb(231, 51, 51);
+    width:  100%;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+
+#rodape{
+    height: 63px;
+    /*width: 300px;*/
+    background-color:  rgb(255, 0, 0);
+    clear: both;
+    width: 1536px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#direito{
+    height: 558px;
+    width: 300px;
+    background-color: rgb(231, 51, 51);
+    float: left;
+    margin-left: 0px;
+    margin-top: 0px;
+    text-align: left;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#centro{
+    height: 558px;
+    width: 1536px;
+    background-color:  rgb(240, 176, 26);
+    margin-right: 0;
+    text-align: left;
+    background-image: url("img/cultura.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+    background-size: auto;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 4px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.button1 {
+    background-color: white; 
+    color:  rgb(255, 178, 46); 
+    border: 2px solid #000000;
+}
+
+.button1:hover {
+    background-color: rgb(255, 60, 6);
+    color: white;
+}
